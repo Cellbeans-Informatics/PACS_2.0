@@ -1,0 +1,16 @@
+0 silly argv {
+0 silly argv   _: [ 'run' ],
+0 silly argv   stream: true,
+0 silly argv   lernaVersion: '7.2.0',
+0 silly argv   '$0': 'node_modules\\lerna\\dist\\cli.js',
+0 silly argv   script: 'dev:viewer'
+0 silly argv }
+1 notice cli v7.2.0
+2 verbose packageConfigs Explicit "packages" configuration found in lerna.json. Resolving packages using the configured glob(s): ["extensions/*","platform/*","modes/*"]
+3 verbose rootPath C:\Users\Krsnaa\Desktop\workspace\pacs-viewer\pacs_server
+4 error SyntaxError: C:\Users\Krsnaa\Desktop\workspace\pacs-viewer\pacs_server\modes\mode-medimaze\package.json: Expected double-quoted property name in JSON at position 1404
+4 error     at JSON.parse (<anonymous>)
+4 error     at _readFile (C:\Users\Krsnaa\Desktop\workspace\pacs-viewer\pacs_server\node_modules\jsonfile\index.js:25:16)
+4 error     at async Promise.all (index 12)
+4 error     at async createProjectGraphWithPackages (C:\Users\Krsnaa\Desktop\workspace\pacs-viewer\pacs_server\node_modules\lerna\dist\index.js:1316:18)
+4 error     at async detectProjects (C:\Users\Krsnaa\Desktop\workspace\pacs-viewer\pacs_server\node_modules\lerna\dist\index.js:1436:24)

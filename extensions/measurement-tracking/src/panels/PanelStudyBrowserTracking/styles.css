@@ -1,0 +1,141 @@
+.textName{
+  font-family: 'Inter', sans-serif;
+  font-weight: 700;
+  font-size: 10px;
+  color: #FFFFFF;
+  line-height: 12.1px;
+  margin-left: 15px;
+
+  /* background: #FFFFFF; */
+
+}
+
+.space-title{
+  background-color: #2A9776;
+  height: 24px;
+  width: 201px;
+  margin-left: 9px;
+  top: 131px;
+  left: 3px;
+  display: flex;
+margin-top: -30px;
+align-items: center;
+}
+
+.space-timeline{
+  background-color: #212121;
+  width: 201px;
+height: 23px;
+margin-top: 10px;
+margin-left: 9px;
+display: flex;
+
+align-items: center;
+
+}
+
+.texttimeline{
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  font-size: 11px;
+  color: #FFFFFF;
+  line-height: 13.1px;
+  margin-left: 15px;
+
+  /* background: #FFFFFF; */
+
+}
+
+.space-date {
+  margin-left: 9px;
+  display: flex;
+  margin-top: 10px;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 201px;
+
+  /* margin-top: 252px; Adjust the margin as needed */
+}
+
+
+
+
+.textdate{
+color: #CECECE;
+font-weight: 400;
+font-size: 11px;
+}
+
+
+.space-dx {
+  margin-left: 9px;
+  display: flex;
+  margin-top: 10px;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 201px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  /* margin-top: 252px; Adjust the margin as needed */
+}
+.space-logo{
+  margin-left: 9px;
+  display: flex;
+  margin-top: 10px;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 201px;
+  display: flex;
+  flex-direction: row;
+}
+
+
+.textdx{
+color: #CECECE;
+font-weight: 400;
+font-size: 11px;
+}
+.textseries{
+color: #CECECE;
+font-weight: 400;
+font-size: 11px;
+display: flex;
+}
+
+.texttwo{
+  color: #CECECE;
+font-weight: 400;
+font-size: 11px;
+margin-left: -120px;
+}
+
+/* Add styles for your toolbar in your CSS file */
+
+.toolbar {
+  display: flex;
+  padding: 10px;
+  background-color: #f0f0f0;
+  border-bottom: 2px solid #ccc;
+}
+
+.toolbar svg {
+  margin-right: 10px;
+  width: 20px; /* Adjust the width as needed */
+  height: 20px; /* Adjust the height as needed */
+  cursor: pointer;
+}
+
+.svgstyle{
+  cursor: pointer;
+}
+
+
+.tooltip {
+  position: absolute;
+  background-color: #333;
+  color: #fff;
+  padding: 5px;
+  border-radius: 3px;
+  z-index: 999;
+}
